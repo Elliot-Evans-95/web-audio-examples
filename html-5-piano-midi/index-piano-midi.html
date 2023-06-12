@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Audio Piano - MIDI Keyboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <!--    <link rel="icon" href="/favicon.ico" sizes="any">-->
+    <!--    <link rel="icon" href="/icon.svg" type="image/svg+xml">-->
+    <!--    <link rel="apple-touch-icon" href="icon.png">-->
+
+    <link rel="stylesheet" href="./piano-midi.css">
+
+    <!--    <link rel="manifest" href="site.webmanifest">-->
+    <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+    <h1>HTML5 Audio Piano - MIDI Keyboard</h1>
+
+    <div class="piano">
+        <div data-note="C" class="key white"></div>
+        <div data-note="C#" class="key black"></div>
+        <div data-note="D" class="key white"></div>
+        <div data-note="D#" class="key black"></div>
+        <div data-note="E" class="key white"></div>
+        <div data-note="F" class="key white"></div>
+        <div data-note="F#" class="key black"></div>
+        <div data-note="G" class="key white"></div>
+        <div data-note="G#" class="key black"></div>
+        <div data-note="A" class="key white"></div>
+        <div data-note="A#" class="key black"></div>
+        <div data-note="B" class="key white"></div>
+    </div>
+
+    <audio id="C" src="./../samples/C.mp3"></audio>
+    <audio id="C#" src="./../samples/Db.mp3"></audio>
+    <audio id="D" src="./../samples/D.mp3"></audio>
+    <audio id="D#" src="./../samples/Eb.mp3"></audio>
+    <audio id="E" src="./../samples/E.mp3"></audio>
+    <audio id="F" src="./../samples/F.mp3"></audio>
+    <audio id="F#" src="./../samples/Gb.mp3"></audio>
+    <audio id="G" src="./../samples/G.mp3"></audio>
+    <audio id="G#" src="./../samples/Ab.mp3"></audio>
+    <audio id="A" src="./../samples/A.mp3"></audio>
+    <audio id="A#" src="./../samples/Bb.mp3"></audio>
+    <audio id="B" src="./../samples/B.mp3"></audio>
+
+    <script src="./piano-midi.js" type="module"></script>
+</body>
+</html>

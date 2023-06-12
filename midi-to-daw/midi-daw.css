@@ -1,0 +1,13 @@
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 1rem;
+    min-height: 100vh;
+}
+
+button {
+    border-radius: 2rem;
+    border: 0.25rem solid black;
+    padding: 1rem;
+    background: white;
+    font: 24px "Open Sans", "Lucida Grande", "Arial", sans-serif;
+}
